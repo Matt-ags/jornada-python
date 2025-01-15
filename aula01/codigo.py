@@ -8,7 +8,7 @@
 import pyautogui
 import time
 
-pyautogui.PAUSE = 1 # o python faz os códigos muito rápido, portanto, colocamos uma pausa (1 segundo)!
+pyautogui.PAUSE = 0.2 # o python faz os códigos muito rápido, portanto, colocamos uma pausa (1 segundo)!
 
 # Certo, precisamos acessar o "windows" para pesquisar o crhome, para acessar o sistema!
 # Apertamos uma tecla:
@@ -26,16 +26,16 @@ time.sleep(20)
 
 pyautogui.press("enter") # pressiona enter
 
-time.sleep(50)
+time.sleep(20)
 
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login") # escreve o link
 
-time.sleep(10)
+time.sleep(5)
 
 pyautogui.press("enter") # pressiona enter
 
 # pedimos pro computador esperar um pouco para carregar a página
-time.sleep(30)
+time.sleep(15)
 
 # Passo 02: Login (coloque qualquer coisa, estamos só simulando)
 
@@ -113,7 +113,7 @@ for linha in tabela.index:
     obs = str(tabela.loc[linha, "obs"])
     if obs != "nan": # se NÃO for nulo, faz issp
         pyautogui.write(obs)
-        
+
     pyautogui.press("tab")
 
     # enviar:

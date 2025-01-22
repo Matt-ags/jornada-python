@@ -1,6 +1,9 @@
-# Jornada Python
+# 🐍 Jornada Python
 
-## Projeto de Automação de Cadastro de Produtos
+Uma coleção de projetos incríveis desenvolvidos com Python durante a "Jornada Python" com a Hashtag Treinamentos! 🚀
+
+
+## 📌 Python-Power-Up: Projeto de Automação de Cadastro de Produtos
 
 ### Descrição Geral
 Automação do processo de cadastro de milhares de produtos no sistema interno utilizando Python. O script permite a execução diária e sob demanda, eliminando tarefas manuais repetitivas e reduzindo erros. A solução trouxe maior eficiência operacional e confiabilidade no fluxo de dados.
@@ -19,7 +22,7 @@ pip install pyautogui pandas openpyxl
 
 ---
 
-## Projeto de Análise de Cancelamento de Clientes
+## 📊 Python-Insights: Projeto de Análise de Cancelamento de Clientes
 
 ### Descrição Geral
 Este projeto foi desenvolvido para analisar os motivos de cancelamento de clientes. Utilizando Python, foram gerados gráficos interativos e dashboards que forneceram insights detalhados sobre as principais causas de cancelamento, possibilitando a redução da taxa de 56% para 18% após ações corretivas baseadas nos resultados.
@@ -44,7 +47,7 @@ pip install pandas plotly numpy openpyxl nbformat ipyKernel
 
 ---
 
-## Projeto de IA para Previsão de Nota de Crédito
+## 🤖 Python-IA: Projeto de IA para Previsão de Nota de Crédito
 
 ### Descrição Geral
 Criação de um modelo preditivo de machine learning para prever a nota de crédito de clientes de uma financeira com base em suas características. O modelo foi implementado utilizando Python, alcançando uma precisão de 86%.
@@ -62,7 +65,7 @@ pip install pandas scikit-learn
 
 ---
 
-## Projeto de Chat em Tempo Real para Site/App
+## 💬 Python-DEV: Projeto de Chat em Tempo Real para Site/App
 
 ### Descrição Geral
 Criação de um chat ao vivo para site e para app usando a ferramenta Elet, tanto front end como backend, feitos em Python.
